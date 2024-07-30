@@ -1,0 +1,76 @@
+:root {
+  --main-color: #3b5999;
+}
+
+header {
+  margin: 20px;
+  background-color: #fff;
+}
+
+header nav button a{
+  color: #fff;
+}
+header nav button {
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+header nav input {
+  height: 42px;
+  padding: 8px;
+}
+/* section styling */
+section {
+  background-color: #eee;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section {
+  background-color: #fff;
+  width: 500px;
+  padding: 50px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+}
+
+
+.main-section .header {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+form input {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btns a {
+  text-decoration: none;
+  padding: 5px 18px;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #000;
+}
+
+.btns button {
+  padding: 5px 18px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+/* footer styling */
+footer {
+  height: 25vh;
+  background-color: #fff;
+}

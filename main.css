@@ -1,0 +1,61 @@
+:root {
+  --main-color: #3b5999;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.body {
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.body .logo h2 {
+  color: var(--main-color);
+  font-weight: 600;
+  /* width: 25vw; */
+}
+
+.body .logo p {
+  font-weight: 500;
+}
+
+/* Form styling */
+
+.form {
+  margin-top: 40px;
+  flex-basis: 350px;
+  padding: 25px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 30px;
+}
+
+input {
+  width: 70%;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+.form div {
+  margin-bottom: 20px;
+}
+
+/* input:focus {
+border: 2px var(--main-color) solid;
+} */
+
+/* footer styling */
+
+footer {
+  background-color: #fff;
+  height: 50vh;
+}

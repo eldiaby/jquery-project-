@@ -1,0 +1,57 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="icon" type="image/x-icon" href="VEKTOR ICON7.png">
+    <!-- google inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- main css style cheet -->
+    <link rel="stylesheet" href="main.css">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="body text-center">
+      <div class="container text">
+        <div class="row justify-content-center align-items-center">
+          <div class="logo col-lg-6 col-md-12 col-sm-12">
+            <h2 class="display-2">facebook</h2>
+            <p>Facebook helps you connect and share with the people in your life.</p>
+          </div>
+          <div class="form col-lg-6 col-md-12 col-sm-12">
+            <form action="">
+              <div >
+                <input class="form-control" type="email" id="signInEmail" placeholder="Email address or phone number" required autofocus>
+              </div>
+              <div class="password">
+                <input class="form-control" type="password" id="signInPass" name="password" placeholder="Password" required>
+              </div>
+              <div >
+                <input class="btn btn-primary" onclick="signIN()" type="button" value="login">
+              </div>
+              <a href="forgetPass.html">Forget password</a>
+              <hr> 
+              <p id="err" class="alert alert-warning d-none">Incorrect user or password</p>
+                  <div class="login">
+                <button id="btn-submit" onclick="signIN()" class="btn btn-primary" type="button" >Sign up</button>
+              </div>
+            </form>
+            <p><a href="./sign-up.html">Create a Page</a> for a celebrity, brand or business.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+
+    </footer>
+            <script src="./js/jquery-3.1.1.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+
+</html>
